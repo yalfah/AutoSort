@@ -10,8 +10,8 @@ from tensorflow.keras.optimizers import Adam
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 32
 EPOCHS = 10
-TRAIN_DIR = os.path.join('dataset', 'train')
-VAL_DIR = os.path.join('dataset', 'val')
+TRAIN_DIR = os.path.join('.\Documents\GitHub\AutoSort\dataset', 'train')
+VAL_DIR = os.path.join('.\Documents\GitHub\AutoSort\dataset', 'val')
 MODEL_SAVE_PATH = 'trash_classifier.tflite'
 
 def build_and_train():

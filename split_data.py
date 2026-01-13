@@ -1,10 +1,9 @@
 import os
 import shutil
 import random
-
 # --- CONFIGURATION ---
-SOURCE_DIR = 'source_data'
-DATASET_DIR = 'dataset'
+SOURCE_DIR = '.\Documents\GitHub\AutoSort\source_data'
+DATASET_DIR = '.\Documents\GitHub\AutoSort\dataset'
 SPLIT_SIZE = 0.8  # 80% Training, 20% Validation
 
 def create_dirs():
