@@ -11,3 +11,6 @@ A Transfer Learning application designed to classify waste as **Trash** or **Rec
 1. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
+
+
+Data sourced from https://www.kaggle.com/datasets/techsash/waste-classification-data
