@@ -4,13 +4,12 @@ A Transfer Learning application designed to classify waste as **Trash** or **Rec
 - Python 3.8+
 - A dataset of images (See Setup)
 
+(https://www.kaggle.com/datasets/techsash/waste-classification-data dataset used for sample model training)
 ## Setup
 
 1. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
-
-Data sourced from https://www.kaggle.com/datasets/techsash/waste-classification-data
 
 The idea of the this project stems from the statistic that 70%+ of american recycle materials are discarded as trash, the concept of this solution is to design an autosorting trash bin that is functional to allow for for of the recyclable materials to be sorted and discarded appropriately. The MVP product would consist of:
 1. A two compartment trash bin
@@ -18,4 +17,4 @@ The idea of the this project stems from the statistic that 70%+ of american recy
 3. A camera to take images of discarded items
 4. Classification application that can run on edge device to determine where an item needs to go
 
-This repo provides a simple example of item #4 only
+This repo provides a simple example of item #4 
